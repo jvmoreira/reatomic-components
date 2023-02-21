@@ -5,6 +5,17 @@
   "description": "React Components based in the Atomic Design Principle",
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-angular"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-angular": "^17.4.4",
+    "husky": "^8.0.3"
   }
 }
