@@ -6,7 +6,11 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npm run lint:commit && npm run lint:eslint",
+    "lint:commit": "commitlint -e",
+    "lint:eslint:fix": "npm run lint:eslint -- --fix",
+    "lint:eslint": "eslint --ext ts --ext tsx --ext js ."
   },
   "commitlint": {
     "extends": [
