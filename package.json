@@ -18,9 +18,9 @@
     ]
   },
   "peerDependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0",
-    "styled-components": "^4.1.0"
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "styled-components": ">=4.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
