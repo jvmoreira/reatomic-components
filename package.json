@@ -2,10 +2,13 @@
   "name": "reatomic-components",
   "author": "jvmoreira",
   "version": "0.0.1",
+  "type": "module",
   "description": "React Components based in the Atomic Design Principle",
-  "main": "index.js",
+  "main": "dist",
+  "types": "dist/index.d.ts",
   "scripts": {
     "prepare": "husky install",
+    "build": "rollup --config rollup.config.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "npm run lint:commit && npm run lint:eslint",
     "lint:commit": "commitlint -e",
@@ -25,6 +28,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-angular": "^17.4.4",
+    "@rollup/plugin-typescript": "^11.0.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@types/styled-components": "^5.1.26",
@@ -36,6 +40,7 @@
     "husky": "^8.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "rollup": "^3.17.2",
     "styled-components": "^5.3.6",
     "typescript": "^4.9.5"
   }

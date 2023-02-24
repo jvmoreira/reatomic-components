@@ -1,6 +1,9 @@
 # Packages
 node_modules
 
+# Dist
+dist
+
 # IDE
 .idea
 .vscode

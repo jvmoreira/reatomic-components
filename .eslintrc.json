@@ -14,6 +14,7 @@
       "jsx": true
     }
   },
+  "ignorePatterns": ["dist/*"],
   "rules": {
     "quotes": ["error", "single"],
     "semi": "off",
