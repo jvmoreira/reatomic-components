@@ -15,5 +15,6 @@ export default {
   external: ['react', 'react-dom', 'styled-components'],
   plugins: [typescript({
     outputToFilesystem: false,
+    exclude: ['**/*.test.*'],
   })],
 };
