@@ -3,9 +3,18 @@
   "author": "jvmoreira",
   "version": "0.0.1",
   "type": "module",
-  "description": "React Components based in the Atomic Design Principle",
+  "description": "React Styled Components based in the Atomic Design Principle",
   "main": "dist",
   "types": "dist/index.d.ts",
+  "keywords": [
+    "react",
+    "atomic design",
+    "reatomic-components",
+    "styled-components",
+    "theme",
+    "ui",
+    "user interface"
+  ],
   "scripts": {
     "prepare": "husky install",
     "build": "rollup --config rollup.config.js",
