@@ -3,7 +3,8 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:eslint-plugin-react/recommended",
-    "plugin:eslint-plugin-react-hooks/recommended"
+    "plugin:eslint-plugin-react-hooks/recommended",
+    "plugin:storybook/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint"],
