@@ -1,4 +1,7 @@
 {
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "ignorePatterns": ["dist/*"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
@@ -6,8 +9,6 @@
     "plugin:eslint-plugin-react-hooks/recommended",
     "plugin:storybook/recommended"
   ],
-  "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint"],
   "parserOptions": {
     "ecmaVersion": 2020,
     "sourceType": "module",
@@ -15,7 +16,11 @@
       "jsx": true
     }
   },
-  "ignorePatterns": ["dist/*"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "rules": {
     "quotes": ["error", "single"],
     "semi": "off",
