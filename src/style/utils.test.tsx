@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { render, RenderResult } from '@testing-library/react';
-import { defaultTheme, ThemedProps } from '../theme';
+import { defaultTheme, ThemedProps } from '@/theme';
 import { booleanPropInterpolation, primaryColorInterpolation, propValueInterpolation } from './utils';
 
 const fontFamilyDefaultValue = 'sans-serif';

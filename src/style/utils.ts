@@ -1,5 +1,5 @@
-import { ThemeProps } from '../theme';
 import { Interpolation, InterpolationValue } from 'styled-components';
+import { ThemeProps } from '@/theme';
 
 type ThemeInterpolation = Interpolation<ThemeProps>;
 
