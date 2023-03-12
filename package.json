@@ -38,7 +38,10 @@
       "jest-extended/all",
       "@testing-library/jest-dom",
       "jest-styled-components"
-    ]
+    ],
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/src/$1"
+    }
   },
   "peerDependencies": {
     "react": ">=16.8.0",
