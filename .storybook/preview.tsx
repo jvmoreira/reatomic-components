@@ -10,6 +10,7 @@ export const parameters = {
       color: /(background|color)$/i,
       date: /Date$/,
     },
+    exclude: /(ref|as|forwardedAs|theme)/
   },
 };
 
